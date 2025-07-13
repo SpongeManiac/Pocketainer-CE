@@ -1,0 +1,3 @@
+class ExternalStackDetails {
+  ExternalStackDetails();
+}
