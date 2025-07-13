@@ -9,8 +9,8 @@
 ---
 
 <p align="center">
-<img height="250px" src="https://raw.githubusercontent.com/spongemaniac/pocketainer-ce/assets/demos/pocketainer.gif"/>
-<img height="250px" src="https://raw.githubusercontent.com/spongemaniac/pocketainer-ce/assets/demos/stack_control.gif"/>
+<img height="650px" src="https://raw.githubusercontent.com/spongemaniac/pocketainer-ce/assets/demos/pocketainer.gif"/>
+<img height="650px" src="https://raw.githubusercontent.com/spongemaniac/pocketainer-ce/assets/demos/stack_control.gif"/>
 </p>
 
 ---
