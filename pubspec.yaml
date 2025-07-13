@@ -51,7 +51,9 @@ dependencies:
   built_collection: ^5.1.1
   flutter_highlighting: ^0.9.0+11.8.0
   highlight: ^0.7.0
-  flutter_code_editor: ^0.3.2
+  flutter_code_editor:
+    git:
+      url: https://github.com/SpongeManiac/flutter-code-editor
   easy_debounce: ^2.0.3
   yaml: ^3.1.3
 

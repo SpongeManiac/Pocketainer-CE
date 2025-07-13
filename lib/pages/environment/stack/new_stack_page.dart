@@ -37,7 +37,6 @@ class _NewStackPageState extends BaseState<NewStackPage> {
   List<ExternalStack> get externalStacks => widget.context.stacks!.externalStacks;
 
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
-  GlobalKey<CodeFieldState> codeFieldKey = GlobalKey<CodeFieldState>();
 
   TextEditingController stackNameController = TextEditingController();
   late CodeController stackCodeController;
@@ -102,7 +101,6 @@ class _NewStackPageState extends BaseState<NewStackPage> {
                     CodeTheme(
                       data: CodeThemeData(styles: vs2015Theme),
                       child: CodeField(
-                        key: codeFieldKey,
                         controller: stackCodeController,
                         undoController: stackCodeHistoryController,
                         textStyle: const TextStyle(fontSize: 14, fontFamily: 'MartianMono', height: 1.5),
